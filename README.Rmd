@@ -1,14 +1,29 @@
 ---
-output: 
+title: "Calculando medidas de avaliação de desempenho para classificação multirrótulo passo a passo"
+author: "Elaine Cecília Gatto"
+date: "20/01/2021"
+output:
   html_document:
     keep_md: true
+    toc: true
+    toc_depth: 6
+    number_sections: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+  md_document:
+    variant: markdown_github
 ---
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ```{r, echo = FALSE}
-knitr::opts_chunk$set(toc = TRUE, toc_depth = 6, number_sections = TRUE, smooth_scroll= FALSE, collapse=TRUE, comment="##", fig.retina=2")
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
 ```
+
 
 # Introdução
 

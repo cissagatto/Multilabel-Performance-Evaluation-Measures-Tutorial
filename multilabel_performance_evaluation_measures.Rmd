@@ -4,6 +4,7 @@ author: "Elaine Cecília Gatto"
 date: "20/01/2021"
 output:
   html_document:
+    keep_md: true
     toc: true
     toc_depth: 6
     number_sections: true

@@ -1,17 +1,3 @@
----
-title: "Calculando medidas de avaliação de desempenho para classificação multirrótulo passo a passo"
-author: "Elaine Cecília Gatto"
-date: "20/01/2021"
-output:
-  html_document:
-    toc: true
-    toc_depth: 6
-    number_sections: true
-    toc_float:
-      collapsed: true
-      smooth_scroll: false
----
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
